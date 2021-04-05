@@ -5,7 +5,7 @@ Está escrito en php y javascript, ocupando html y css para vizualizarlo.
 # Instalación
 Se puede ocupar un servidor con php habilitado para el funcionamiento del software, se ocupara XAMPP para la explicación de instalación.
 
-Inicilizar el servidor apache en XAMPP.
+Inicializar el servidor apache en XAMPP.
 
 Se debe descargar los archivos index.php, clases.js, estilo.css y ejemplo.red de este repositorio para que funcione correctamente el software.
 Estos archivos se deben mover a la carpeta .../xampp/htdocs/ 
