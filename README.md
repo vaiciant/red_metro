@@ -7,7 +7,7 @@ Se puede ocupar un servidor con php habilitado para el funcionamiento del softwa
 
 Inicilizar el servidor apache en XAMPP.
 
-Se debe descargar los archivos index.php, estilo.css y ejemplo.red de este repositorio para que funcione correctamente el software.
+Se debe descargar los archivos index.php, clases.js, estilo.css y ejemplo.red de este repositorio para que funcione correctamente el software.
 Estos archivos se deben mover a la carpeta .../xampp/htdocs/ 
 
 Ir a http://localhost e interactuar con la aplicación web.
