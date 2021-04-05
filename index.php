@@ -240,7 +240,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <!-- Inicio calcular trayecto -->
         <br>
-        Estacion inicial: <select name="inicio" id="inicio">
+        Estación inicial: <select name="inicio" id="inicio">
             <?php $countIni = 0;
             foreach ($red->paradas as $parada) { ?>
                 <option value="<?php echo $countIni ?>"><?php echo $parada->nombre ?></option>
@@ -248,7 +248,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             } ?>
         </select>
         <br>
-        Estacion final: <select name="final" id="final">
+        Estación final: <select name="final" id="final">
             <?php $countFin = 0;
             foreach ($red->paradas as $parada) { ?>
                 <option value="<?php echo $countFin ?>"><?php echo $parada->nombre ?></option>
