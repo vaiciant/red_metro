@@ -1,7 +1,7 @@
-# Creacion de Red de Metro y Calculo de Paradas
+# Creación de Red de Metro y Cálculo de Paradas
 ## Descripción
 Aplicación web en la cual se puede ingresar una red de metro y calcular el menor trayecto entre dos paradas y un color de tren.
-Está escrito en PHP y Javascript, ocupando HTML y CSS para vizualizarlo.
+Está escrito en PHP y Javascript, ocupando HTML y CSS para visualizarlo.
 
 ## Instalación
 Se puede ocupar un servidor con PHP habilitado para el funcionamiento del software, se ocupara XAMPP para la explicación de instalación.
@@ -14,8 +14,7 @@ Estos archivos se deben mover a la carpeta .../xampp/htdocs/
 Ir a http://localhost e interactuar con la aplicación web.
 
 ## Formato archivo .red
-El archivo .red es un archivo de texto con extension [nombre_archivo].red
-el formato es el siguiente:
+El archivo .red es un archivo de texto con extensión [nombre_archivo].red el formato es el siguiente:
 ```
 [nombre_parada]|[color_parada]|[{nombres_paradas_anteriores|...} = []],[nombre_parada]|[color_parada]|[{nombres_paradas_anteriores|...} = []],...
 ```
