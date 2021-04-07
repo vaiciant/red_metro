@@ -1,0 +1,12 @@
+body {
+    margin-left: 50px;
+}
+
+table {
+    border: solid 2px black;
+    display: inline-block;
+}
+
+td {
+    border: solid 1px black;
+}
