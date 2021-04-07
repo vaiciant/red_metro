@@ -6,7 +6,7 @@
 //Esta aplicacion web sirve para la subida de una red de paradas de metro, mediante un archivo .red
 //con la posibilidad de calcular los trayectos con una parada de inicio y fin
 
-//El archivo .red es un archivo de texto con extension [nombre_archivo].red
+//El archivo .red es un archivo de texto con extensión [nombre_archivo].red
 //El formato del archivo .red es el siguiente
 //[nombre_parada]|[color_parada]|[{nombres_paradas_anteriores|...} = null],[nombre_parada]|[color_parada]|[{nombres_paradas_anteriores|...} = null],...
 //Los colores de las paradas son los siguientes:
