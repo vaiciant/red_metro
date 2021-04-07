@@ -8,18 +8,18 @@
 
 //El archivo .red es un archivo de texto con extension [nombre_archivo].red
 //El formato del archivo .red es el siguiente
-//[nombre_parada]|[color_parada]|[{nombres_paradas_anteriores| ...} = null],[nombre_parada]|[color_parada]|[{nombres_paradas_anteriores|...} = null],...
+//[nombre_parada]|[color_parada]|[{nombres_paradas_anteriores|...} = null],[nombre_parada]|[color_parada]|[{nombres_paradas_anteriores|...} = null],...
 //Los colores de las paradas son los siguientes:
 //0 = sin color
 //1 = verde
 //2 = rojo
 
 //Un ejemplo de un archivo .red:
-//         A|0,B|0|A,C|1|B,D|2|B
-//Se crearan cuatro paradas, {A,B,C,D}, siendo C verde y D rojo
-//Los posibles trayectos siguientes serian {AB,ABC,ABD}
-//y los anteriores serian {CB,CBA,DB,DBA}
-//Con esto se calculan los trayectos de inicio a fin, filtrando por color, mostrando el que tiene menos paradas al principio
+//         A|0,B|0|A,C|1|B,D|2|B,E|0|C|D
+//Se crearan cuatro paradas, {A,B,C,D,E}, siendo C verde y D rojo
+//Los posibles trayectos siguientes serian {AB,ABC,ABCE,ABD,ABDE}
+//y los anteriores serian {EC,ECB,ECBA,ED,EDB,EDBA}
+//Con esto se calculan los trayectos de inicio a fin, filtrando por color, mostrando el trayecto que tiene menos paradas al principio
 
 //Se crean las clases en php por la subida de archivos y despues se crea las clases en javascript, con los datos de php
 
